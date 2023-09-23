@@ -347,15 +347,15 @@ object-fit: cover;
     line-height: 1.9rem;
     font-family: 'Montserrat', sans-serif;
 }
-/* Style the carousel indicators */
+
 .carousel-indicators li {
     background-color: #333;
     border: 1px solid #555;
 }
 
-/* Style the active carousel indicator */
+
 .carousel-indicators .active {
-    background-color: #007bff; /* Change the active indicator color */
+    background-color: #007bff;
     border-color: #007bff;
 }
 
@@ -376,8 +376,8 @@ object-fit: cover;
 #accordionFlushExample {
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(201, 48, 48, 0.1);
-    padding: 50px; /* Increase padding to align with other sections */
-    margin: 0 auto; /* Center the accordion horizontally */
+    padding: 50px; 
+    margin: 0 auto; 
 }
 
 .accordion-item {
@@ -546,13 +546,13 @@ object-fit: cover;
 #contact .contact-items {
     width: 100%;
     display: flex;
-    justify-content: space-between; /* Spread items horizontally */
-    gap: 20px; /* Add some spacing between boxes (reduced to 20px) */
-    margin: 20px 0; /* Add margin to create spacing above and below the boxes */
+    justify-content: space-between;
+    gap: 20px;
+    margin: 20px 0; 
 }
 
 #contact .contact-item {
-    flex: 1; /* Distribute equal width among boxes */
+    flex: 1; 
     padding: 20px;
     text-align: center;
     border-radius: 10px;
